@@ -1,0 +1,33 @@
+.quoteContainer {
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  z-index: 1000;
+}
+
+.chip {
+  background-color: #fff;
+  color: black;
+  width: auto;
+  display: inline-block;
+  margin: 0px 10px;
+  padding: 10px;
+}
+
+.quote {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.authorName {
+  font-size: 22px;
+  text-align: left;
+  font-weight: 700;
+  margin: 20px auto;
+}
